@@ -1,4 +1,8 @@
 Rails.application.routes.draw do  
+  
+  # refactored code
+  get("/roll/:number_of_dice/:how_many_sides", {:controller => "dice", :action => "infinity_and_beyond"})
+  
   # PART 1: EACH IN ERB
   # ===================
 
